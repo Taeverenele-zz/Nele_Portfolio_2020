@@ -11,12 +11,21 @@
     <title>Portfolio Page</title>
   </head>
   <body>
-    <img
-      onclick="showNavBar()"
-      id="hamburger-menu"
-      src="./images/open-menu.svg"
-      alt="hamburger menu icon"
-    />
+    <header>
+      <div>
+        <img class="avatar" src="./images/myAvatar.png" alt="my avatar" />
+      </div>
+    </header>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+        excepturi voluptatibus. Laboriosam ullam amet eligendi repellendus natus
+        quibusdam voluptas tenetur.
+      </p>
+    </main>
+    <footer>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
     <nav class="topnav" id="myTopnav">
       <ul>
         <li><a href="#home" class="active">Home</a></li>
@@ -25,9 +34,12 @@
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
-    <main>
-      <img class="avatar" src="./images/myAvatar.png" alt="my avatar" />
-    </main>
+    <img
+    onclick="showNavBar()"
+    id="hamburger-menu"
+    src="./images/open-menu.svg"
+    alt="hamburger menu icon"
+  />
     <img id="butterfly" src="./images/butterfly-big.svg" alt="butterfly" />
     <script src="script.js"></script>
   </body>
