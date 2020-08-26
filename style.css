@@ -15,7 +15,7 @@ body {
     linear-gradient(50deg, #f19595 50%, transparent 50%);
   position: relative;
   display: grid;
-  grid-template-rows: 230px 240px 150px 20px;
+  grid-template-rows: 240px 240px 150px 20px;
 }
 
 /**********SVG Styles**********/
@@ -38,6 +38,11 @@ body {
 }
 .social-icon {
   width: 30px;
+  margin: 10px;
+}
+main a:hover,
+#social-icons a:hover {
+  cursor: pointer;
 }
 
 /**********Nav Styles**********/
@@ -68,9 +73,9 @@ body {
 /***********Header Styles**********/
 header {
   text-align: center;
+  margin: auto;
 }
 .avatar {
-  margin-top: 20px;
   width: 200px;
   border-radius: 50%;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
@@ -88,6 +93,7 @@ main {
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
 }
 main p {
+  padding-bottom: 15px;
   font-size: 30px;
 }
 
@@ -98,4 +104,5 @@ footer {
   bottom: 0;
   text-align: center;
   color: #f0d4d4;
+  background-color: #363535;
 }
