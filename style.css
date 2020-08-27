@@ -40,9 +40,11 @@ body {
   width: 30px;
   margin: 10px;
 }
-main a:hover,
+
+main a img:hover,
 #social-icons a:hover {
   cursor: pointer;
+  transform: scale(1.5);
 }
 
 /**********Nav Styles**********/
@@ -62,6 +64,7 @@ main a:hover,
   text-decoration: none;
   padding: 5px 20px;
 }
+
 .responsive {
   display: flex;
   flex-direction: column;
@@ -108,19 +111,6 @@ footer {
   background-color: #363535;
 }
 
-/*************In between Mobile and Tablet size to fit the nav icons at top*************/
-@media screen and (min-width: 451) and (max-width: 640px) {
-  body {
-    grid-template-rows: 100px 1fr 1fr 1fr;
-  }
-  header {
-    padding-top: 0;
-  }
-  .avatar {
-    width: 250px;
-  }
-}
-
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
   body {
@@ -138,10 +128,20 @@ footer {
   .topnav ul {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .topnav ul li {
+
+    font-size: 17px;
+  }
+  .topnav ul li a:hover {
+    border-bottom: 2px #363535 solid;
+    border-top: 2px #363535 solid;
   }
   #social-icons {
     display: flex;
     justify-content: center;
+
   }
   header {
     padding-top: 0;
@@ -167,19 +167,22 @@ footer {
   }
   .topnav ul {
     height: 50px;
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: flex-start;
   }
   .topnav ul li {
     align-items: center;
-    font-size: 25px;
+  }
+  .topnav ul li a:hover {
+    border-bottom: 2px #363535 solid;
+    border-top: 2px #363535 solid;
   }
   #social-icons {
     height: 50px;
-    width: 20%;
+    width: 25%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 0;
   }
   header {
@@ -187,5 +190,8 @@ footer {
   }
   .avatar {
     width: 400px;
+  }
+  main {
+    max-width: 1250px;
   }
 }
