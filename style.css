@@ -111,6 +111,18 @@ footer {
   background-color: #363535;
 }
 
+/**************Skills Page*************/
+.skills {
+  display: flex;
+  flex-direction: column;
+
+}
+.skills .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
   body {
