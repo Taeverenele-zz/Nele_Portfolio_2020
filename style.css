@@ -150,14 +150,24 @@ header.skills-header {
   grid-gap: 20px;
 }
 .portfolio-card {
-  padding: 20px;
+  /* padding: 20px; */
+
   background-color: #f0d4d4;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
+  /* max-width: 450px; */
 }
 .portfolio-card h2 {
   text-align: center;
   margin-bottom: 10px;
+}
+.card-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.portfolio-card img {
+  width: 80%;
+  margin: 0 auto;
 }
 
 /*************Tablet styles*************/
@@ -277,5 +287,9 @@ header.skills-header {
   }
   .skills-container {
     margin-top: 0;
+  }
+  .portfolio-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 200px);
   }
 }
