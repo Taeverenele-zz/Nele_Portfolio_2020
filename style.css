@@ -47,6 +47,9 @@ main a img:hover,
   cursor: pointer;
   transform: scale(1.5);
 }
+.devicon {
+  width: 60px;
+}
 
 /**********Nav Styles**********/
 .topnav {
@@ -92,7 +95,6 @@ header {
   text-align: center;
   width: 80%;
   background-color: #f0d4d4;
-  margin: auto;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
@@ -122,7 +124,7 @@ header.skills-header {
 .skills {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .skills h1 {
   padding-bottom: 20px;
@@ -135,39 +137,39 @@ header.skills-header {
 .lang p {
   margin-bottom: 20px;
 }
-.devicon {
-  width: 100px;
-}
 
 /**************Portfolio Page*************/
-.section-title {
+
+.portfolio-title {
   text-align: center;
   margin-top: 50px;
 }
 .portfolio-container {
-  display: grid;
-  margin: 20px auto;
-  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
 }
 .portfolio-card {
-  /* padding: 20px; */
-
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 500px;
   background-color: #f0d4d4;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
   border-radius: 10px;
-  /* max-width: 450px; */
 }
 .portfolio-card h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-.card-text {
-  text-align: center;
-  margin-top: 20px;
+  padding-top: 10px;
 }
 .portfolio-card img {
-  width: 80%;
+  width: 90%;
+  padding: 10px;
+}
+.portfolio-card p {
   margin: 0 auto;
+  width: 90%;
+  padding-bottom: 10px;
 }
 
 /*************Tablet styles*************/
@@ -220,12 +222,19 @@ header.skills-header {
   .skills-container {
     margin-top: 0;
   }
+  .portfolio-title {
+    margin: 20px auto;
+  }
+  .devicon {
+    width: 100px;
+  }
 }
 
 /*************Desktop styles*************/
 @media screen and (min-width: 961px) {
   body {
     grid-template-rows: 100px 1fr 1fr 1fr;
+    grid-row-gap: 0;
   }
   #hamburger-menu {
     display: none;
@@ -267,12 +276,15 @@ header.skills-header {
     max-width: 1250px;
   }
   .skills {
-    margin-top: 20px;
-
     flex-direction: row;
   }
   .skills-container {
     max-width: 800px;
+    max-height: 250px;
+    margin: 20px auto;
+  }
+  .lang {
+    margin: 0 auto;
   }
   .section-title {
     font-size: 35px;
@@ -285,11 +297,24 @@ header.skills-header {
   .skills ul li {
     font-size: 20px;
   }
-  .skills-container {
+  .portfolio {
+    grid-template-rows: 100px 100px 200px;
+  }
+  .portfolio-title {
     margin-top: 0;
   }
   .portfolio-container {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(3, 200px);
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1225px;
+    margin: 0 auto;
+  }
+  .portfolio-card {
+    width: 30%;
+    height: 260px;
+    min-width: 400px;
+  }
+  .devicon {
+    width: 100px;
   }
 }
