@@ -86,7 +86,7 @@ header {
 }
 
 /***********Main Styles**********/
-main {
+.card {
   margin: 0 auto;
   text-align: center;
   width: 80%;
@@ -112,15 +112,27 @@ footer {
 }
 
 /**************Skills Page*************/
+header.skills-header {
+  height: 100px;
+}
 .skills {
   display: flex;
   flex-direction: column;
-
+  margin-top: 50px;
+}
+.skills h1 {
+  padding-bottom: 20px;
 }
 .skills .column {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.lang p {
+  margin-bottom: 20px;
+}
+.devicon {
+  width: 100px;
 }
 
 /*************Tablet styles*************/
@@ -160,6 +172,15 @@ footer {
   }
   .avatar {
     width: 300px;
+  }
+  .skills {
+    margin-top: 20px;
+  }
+  .section-title {
+    font-size: 35px;
+  }
+  .skills ul li {
+    font-size: 20px;
   }
 }
 
@@ -203,7 +224,27 @@ footer {
   .avatar {
     width: 400px;
   }
-  main {
+  main,
+  .lang {
     max-width: 1250px;
+  }
+  .skills {
+    margin-top: 20px;
+
+    flex-direction: row;
+  }
+  .skills-container {
+    max-width: 800px;
+  }
+  .section-title {
+    font-size: 35px;
+  }
+
+  .column {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  .skills ul li {
+    font-size: 20px;
   }
 }
