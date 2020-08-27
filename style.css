@@ -15,7 +15,7 @@ body {
     linear-gradient(50deg, #f19595 50%, transparent 50%);
   position: relative;
   display: grid;
-  grid-template-rows: 240px 240px 150px 20px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 /**********SVG Styles**********/
@@ -74,6 +74,7 @@ main a:hover,
 header {
   text-align: center;
   margin: auto;
+  padding: 20px;
 }
 .avatar {
   width: 200px;
@@ -105,4 +106,86 @@ footer {
   text-align: center;
   color: #f0d4d4;
   background-color: #363535;
+}
+
+/*************In between Mobile and Tablet size to fit the nav icons at top*************/
+@media screen and (min-width: 451) and (max-width: 640px) {
+  body {
+    grid-template-rows: 100px 1fr 1fr 1fr;
+  }
+  header {
+    padding-top: 0;
+  }
+  .avatar {
+    width: 250px;
+  }
+}
+
+/*************Tablet styles*************/
+@media screen and (min-width: 641px) and (max-width: 960px) {
+  body {
+    grid-template-rows: 100px 1fr 1fr 1fr;
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    grid-row: 1 / 2;
+  }
+  .topnav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    padding-top: 0;
+  }
+  .avatar {
+    width: 300px;
+  }
+}
+
+/*************Desktop styles*************/
+@media screen and (min-width: 961px) {
+  body {
+    grid-template-rows: 100px 1fr 1fr 1fr;
+  }
+  #hamburger-menu {
+    display: none;
+  }
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    grid-row: 1 / 2;
+  }
+  .topnav ul {
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .topnav ul li {
+    align-items: center;
+    font-size: 25px;
+  }
+  #social-icons {
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  header {
+    padding-top: 0;
+  }
+  .avatar {
+    width: 400px;
+  }
 }
