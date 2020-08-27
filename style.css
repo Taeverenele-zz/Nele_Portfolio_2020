@@ -15,6 +15,7 @@ body {
     linear-gradient(50deg, #f19595 50%, transparent 50%);
   position: relative;
   display: grid;
+  grid-row-gap: 20px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
@@ -112,6 +113,9 @@ footer {
 }
 
 /**************Skills Page*************/
+.skills-container {
+  margin-top: 50px;
+}
 header.skills-header {
   height: 100px;
 }
@@ -133,6 +137,27 @@ header.skills-header {
 }
 .devicon {
   width: 100px;
+}
+
+/**************Portfolio Page*************/
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.portfolio-container {
+  display: grid;
+  margin: 20px auto;
+  grid-gap: 20px;
+}
+.portfolio-card {
+  padding: 20px;
+  background-color: #f0d4d4;
+  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.portfolio-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 /*************Tablet styles*************/
@@ -181,6 +206,9 @@ header.skills-header {
   }
   .skills ul li {
     font-size: 20px;
+  }
+  .skills-container {
+    margin-top: 0;
   }
 }
 
@@ -246,5 +274,8 @@ header.skills-header {
   }
   .skills ul li {
     font-size: 20px;
+  }
+  .skills-container {
+    margin-top: 0;
   }
 }
