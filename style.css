@@ -1,4 +1,7 @@
 /*******Normalize********/
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +9,7 @@
 }
 /**********Base Styles**********/
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Lemonada', cursive;
   height: 100vh;
   width: 100vw;
   background-color: #f0d4d4;
@@ -162,6 +165,7 @@ header.skills-header {
 /**************Portfolio Page*************/
 
 .title {
+  font-family: 'Bangers', cursive;
   text-align: center;
   margin-top: 50px;
 }
@@ -283,12 +287,14 @@ button:hover {
     margin-top: 20px;
   }
   .section-title {
+    font-family: 'Bangers', cursive;
     font-size: 35px;
   }
   .skills ul li {
     font-size: 20px;
   }
   .title {
+    font-family: 'Bangers', cursive;
     margin: 20px auto;
   }
   .devicon {
@@ -360,6 +366,7 @@ button:hover {
   }
   .section-title {
     font-size: 35px;
+    font-family: 'Bangers', cursive;
   }
   .column {
     flex-wrap: wrap;
