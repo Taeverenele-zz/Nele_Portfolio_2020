@@ -13,9 +13,8 @@ body {
   background-image: linear-gradient(-30deg, #363535 50%, transparent 50%),
     linear-gradient(50deg, #f19595 50%, transparent 50%);
   position: relative;
-  display: grid;
-  grid-row-gap: 20px;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 /**********SVG Styles**********/
@@ -54,7 +53,7 @@ main a img:hover,
 
 /**********Nav Styles**********/
 .topnav {
-  display: none;
+  margin-top: -250px;
 }
 .topnav ul li {
   display: flex;
@@ -75,13 +74,13 @@ main a img:hover,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-row: 1 / 2;
+  margin-top: 10px;
 }
 
 /***********Header Styles**********/
 header {
   text-align: center;
-  margin: auto;
+  margin: 10px;
   padding: 20px;
 }
 .avatar {
@@ -199,7 +198,7 @@ main .flip-card-back {
     display: flex;
     flex-direction: column;
     width: 100%;
-    grid-row: 1 / 2;
+    margin-top: 0;
   }
   .topnav ul {
     display: flex;
@@ -245,10 +244,7 @@ main .flip-card-back {
 
 /*************Desktop styles*************/
 @media screen and (min-width: 961px) {
-  body {
-    grid-template-rows: 100px 1fr 1fr 1fr;
-    grid-row-gap: 0;
-  }
+
   #hamburger-menu {
     display: none;
   }
@@ -256,7 +252,7 @@ main .flip-card-back {
     display: flex;
     flex-direction: row;
     width: 100%;
-    grid-row: 1 / 2;
+    margin-top: 0;
   }
   .topnav ul {
     height: 50px;
@@ -313,11 +309,6 @@ main .flip-card-back {
   }
   .skills ul li {
     font-size: 20px;
-  }
-  .portfolio {
-    /* margin: 0 auto; */
-    grid-template-rows: 100px 100px 200px;
-    /* width: 90%; */
   }
   .portfolio-title {
     margin-top: 0;
