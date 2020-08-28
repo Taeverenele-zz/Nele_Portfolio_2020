@@ -161,7 +161,7 @@ header.skills-header {
 
 /**************Portfolio Page*************/
 
-.portfolio-title {
+.title {
   text-align: center;
   margin-top: 50px;
 }
@@ -187,6 +187,58 @@ header.skills-header {
 
 .blog-img {
   width: 90%;
+}
+/**************Contact Page*************/
+
+.contact-social a img {
+  width: 80px;
+  margin: 10px 0;
+}
+.contact-social a img:hover {
+  background-color: #f19595;
+}
+form {
+  width: 70%;
+  max-width: 600px;
+}
+input,
+textarea {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+  outline: none;
+  transition: 2s;
+}
+input:focus,
+textarea:focus {
+  background-color: #f0d4d4;
+}
+
+label {
+  color: #363535;
+  font-size: 20px;
+}
+textarea {
+  height: 150px;
+  resize: none;
+}
+button {
+  padding: 10px 20px;
+  color: #363535;
+  background-color: #f0d4d4;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+}
+button:hover {
+  transform: scale(1.2);
+  font-size: 16px;
 }
 
 /*************Tablet styles*************/
@@ -233,7 +285,7 @@ header.skills-header {
   .skills ul li {
     font-size: 20px;
   }
-  .portfolio-title {
+  .title {
     margin: 20px auto;
   }
   .devicon {
@@ -313,8 +365,9 @@ header.skills-header {
   .skills ul li {
     font-size: 20px;
   }
-  .portfolio-title {
+  .title {
     margin-top: 0;
+    font-size: 50px;
   }
   .flex-container {
     flex-direction: row;
