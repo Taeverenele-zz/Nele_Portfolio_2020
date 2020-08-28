@@ -42,7 +42,7 @@ body {
   border-radius: 50%;
 }
 
-main a img:hover,
+.about-card a img:hover,
 #social-icons a:hover {
   cursor: pointer;
   transform: scale(1.5);
@@ -98,8 +98,9 @@ header {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+  margin-bottom: 40px;
 }
-main p {
+.about-card p {
   padding-bottom: 15px;
   font-size: 30px;
 }
@@ -151,6 +152,8 @@ header.skills-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 30px;
+  font-size: 20px;
 }
 .lang p {
   margin-bottom: 20px;
@@ -166,15 +169,15 @@ header.skills-header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 }
 
-
-main.about-card {
+.about-card {
   transition: transform 2s;
   transform-style: preserve-3d;
   transform: rotateY(360deg);
 }
-main .flip-card-back {
+.flip-card-back {
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
@@ -188,9 +191,6 @@ main .flip-card-back {
 
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
-  body {
-    grid-template-rows: 100px 1fr 1fr 1fr;
-  }
   #hamburger-menu {
     display: none;
   }
@@ -216,8 +216,10 @@ main .flip-card-back {
     display: flex;
     justify-content: center;
   }
-  header {
+  header,
+  .skills-container {
     padding-top: 0;
+    margin-top: 0;
   }
   .avatar {
     width: 300px;
@@ -231,9 +233,6 @@ main .flip-card-back {
   .skills ul li {
     font-size: 20px;
   }
-  .skills-container {
-    margin-top: 0;
-  }
   .portfolio-title {
     margin: 20px auto;
   }
@@ -244,7 +243,6 @@ main .flip-card-back {
 
 /*************Desktop styles*************/
 @media screen and (min-width: 961px) {
-
   #hamburger-menu {
     display: none;
   }
@@ -285,7 +283,7 @@ main .flip-card-back {
     width: 30%;
     margin: 20px;
   }
-  main,
+  .about-card,
   .lang {
     max-width: 1250px;
   }
@@ -293,9 +291,14 @@ main .flip-card-back {
     flex-direction: row;
   }
   .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 800px;
-    max-height: 250px;
     margin: 20px auto;
+  }
+  .skills-container .card {
+    min-width: 90%;
   }
   .lang {
     margin: 0 auto;
