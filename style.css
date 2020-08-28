@@ -187,6 +187,10 @@ main .flip-card-back {
 .blog-img {
   width: 90%;
 }
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
 
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
