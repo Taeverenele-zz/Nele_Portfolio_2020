@@ -182,6 +182,12 @@ main .flip-card-back {
   backface-visibility: hidden;
 }
 
+/**************Blog Page*************/
+
+.blog-img {
+  width: 90%;
+}
+
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
   body {
