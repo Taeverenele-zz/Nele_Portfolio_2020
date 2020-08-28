@@ -147,8 +147,7 @@ header.skills-header {
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  align-items: center
-
+  align-items: center;
 }
 .portfolio-card {
   text-align: center;
@@ -172,6 +171,17 @@ header.skills-header {
   padding-bottom: 10px;
 }
 
+main.card {
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  transform: rotateY(360deg);
+}
+main .flip-card-back {
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
 /*************Tablet styles*************/
 @media screen and (min-width: 641px) and (max-width: 960px) {
   body {
@@ -192,7 +202,6 @@ header.skills-header {
     margin-top: 10px;
   }
   .topnav ul li {
-
     font-size: 17px;
   }
   .topnav ul li a:hover {
@@ -202,7 +211,6 @@ header.skills-header {
   #social-icons {
     display: flex;
     justify-content: center;
-
   }
   header {
     padding-top: 0;
