@@ -1,7 +1,4 @@
 /*******Normalize********/
-
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +6,7 @@
 }
 /**********Base Styles**********/
 body {
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   height: 100vh;
   width: 100vw;
   background-color: #f0d4d4;
@@ -44,7 +41,6 @@ body {
   background-color: #f0d4d4;
   border-radius: 50%;
 }
-
 .about-card a img:hover,
 #social-icons a:hover {
   cursor: pointer;
@@ -53,10 +49,13 @@ body {
 .devicon {
   width: 60px;
 }
+.javaScript {
+  background-color: #000;
+}
 
 /**********Nav Styles**********/
 .topnav {
-  margin-top: -250px;
+  margin-top: -350px;
 }
 .topnav ul li {
   display: flex;
@@ -125,6 +124,15 @@ header {
   width: 90%;
   padding: 10px;
 }
+#resume-btn {
+  background-color: #f19595;
+  border: 2px solid #363535;
+  margin-bottom: 15px;
+}
+#resume-btn a {
+  text-decoration: none;
+  color: #363535;
+}
 
 /***********Footer Styles**********/
 footer {
@@ -165,7 +173,7 @@ header.skills-header {
 /**************Portfolio Page*************/
 
 .title {
-  font-family: 'Bangers', cursive;
+  font-family: "Bangers", cursive;
   text-align: center;
   margin-top: 50px;
 }
@@ -243,7 +251,7 @@ button {
   font-size: 15px;
   outline: none;
 }
-button:hover {
+#message-btn:hover {
   transform: scale(1.2);
   font-size: 16px;
 }
@@ -287,14 +295,14 @@ button:hover {
     margin-top: 20px;
   }
   .section-title {
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
     font-size: 35px;
   }
   .skills ul li {
     font-size: 20px;
   }
   .title {
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
     margin: 20px auto;
   }
   .devicon {
@@ -366,7 +374,7 @@ button:hover {
   }
   .section-title {
     font-size: 35px;
-    font-family: 'Bangers', cursive;
+    font-family: "Bangers", cursive;
   }
   .column {
     flex-wrap: wrap;
@@ -400,5 +408,4 @@ button:hover {
     width: 50%;
     margin: 20px;
   }
-
 }
