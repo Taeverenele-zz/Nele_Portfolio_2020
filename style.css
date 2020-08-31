@@ -87,7 +87,6 @@ body {
 header {
   text-align: center;
   margin: 10px;
-  padding: 20px;
 }
 .avatar {
   width: 200px;
@@ -108,7 +107,7 @@ header {
 }
 .about-card p {
   padding-bottom: 15px;
-  font-size: 30px;
+  font-size: 20px;
 }
 .card {
   text-align: center;
@@ -130,7 +129,6 @@ header {
 }
 #resume-btn {
   background-color: #f19595;
-  border: 2px solid #363535;
   margin-bottom: 15px;
 }
 #resume-btn a {
@@ -159,6 +157,9 @@ header.skills-header {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+}
+.skills ul {
+  list-style-position: inside;
 }
 .skills h1 {
   padding-bottom: 20px;
@@ -227,11 +228,12 @@ textarea {
   font-size: 15px;
   height: auto;
   margin-bottom: 20px;
-  padding: 12px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
   outline: none;
   transition: 2s;
+  font-family: "Lemonada", cursive;
 }
 input:focus,
 textarea:focus {
@@ -240,7 +242,7 @@ textarea:focus {
 
 label {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 10px;
 }
 textarea {
@@ -255,6 +257,9 @@ button {
   cursor: pointer;
   font-size: 15px;
   outline: none;
+  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+  border: none;
+  font-family: "Lemonada", cursive;
 }
 #message-btn:hover {
   transform: scale(1.2);
@@ -262,6 +267,7 @@ button {
 }
 
 /*************Tablet styles*************/
+
 @media screen and (min-width: 641px) and (max-width: 960px) {
   #hamburger-menu {
     display: none;
@@ -280,7 +286,6 @@ button {
   .topnav ul li {
     font-size: 17px;
   }
-
   #social-icons {
     display: flex;
     justify-content: center;
@@ -309,6 +314,7 @@ button {
   .title {
     font-family: "Bangers", cursive;
     margin: 20px auto;
+    font-size: 50px;
   }
   .devicon {
     width: 100px;
