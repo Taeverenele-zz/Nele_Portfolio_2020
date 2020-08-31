@@ -1,5 +1,4 @@
-/*******Normalize********/
-
+/* ******Normalize*******  */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,8 +11,13 @@ body {
   font-family: "Lemonada", cursive;
   height: 100vh;
   width: 100vw;
-  background: rgb(240,212,212);
-  background: linear-gradient(90deg, rgba(240,212,212,1) 0%, rgba(241,149,149,1) 50%, rgba(54,53,53,1) 100%);
+  background: rgb(240, 212, 212);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 212, 212, 1) 0%,
+    rgba(241, 149, 149, 1) 50%,
+    rgba(54, 53, 53, 1) 100%
+  );
   position: relative;
   display: flex;
   flex-direction: column;
@@ -142,11 +146,13 @@ button {
 }
 button:hover {
   animation: pulse 1s;
-  box-shadow: 0 0 0 2em rgba(#fff,0);
+  box-shadow: 0 0 0 2em rgba(#fff, 0);
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0; }
+  0% {
+    box-shadow: 0 0 0 0;
+  }
 }
 
 #resume-btn {
@@ -296,9 +302,7 @@ textarea {
     display: flex;
     justify-content: center;
   }
-  header,
-  .skills-container {
-    padding-top: 0;
+  header {
     margin-top: 0;
   }
   .avatar {
@@ -436,5 +440,3 @@ textarea {
     margin: 0 20px;
   }
 }
-
-
