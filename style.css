@@ -1,30 +1,29 @@
 /*******Normalize********/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 /**********Base Styles**********/
+
 body {
   font-family: "Lemonada", cursive;
   height: 100vh;
   width: 100vw;
-  background-color: #f0d4d4;
-  background-image: linear-gradient(-30deg, #363535 50%, transparent 50%),
-    linear-gradient(50deg, #f19595 50%, transparent 50%);
+  background: rgb(240,212,212);
+  background: linear-gradient(90deg, rgba(240,212,212,1) 0%, rgba(241,149,149,1) 50%, rgba(54,53,53,1) 100%);
   position: relative;
   display: flex;
   flex-direction: column;
 }
+main {
+  padding-bottom: 40px;
+}
 
 /**********SVG Styles**********/
-/* #butterfly {
-  width: 60%;
-  position: absolute;
-  right: -25%;
-  bottom: 20px;
-  z-index: -1;
-} */
+
 #hamburger-menu {
   width: 40px;
   position: absolute;
@@ -54,6 +53,7 @@ body {
 }
 
 /**********Nav Styles**********/
+
 .topnav {
   margin-top: -350px;
 }
@@ -70,7 +70,6 @@ body {
   text-decoration: none;
   padding: 5px 20px;
 }
-
 .responsive {
   display: flex;
   flex-direction: column;
@@ -84,6 +83,7 @@ body {
 }
 
 /***********Header Styles**********/
+
 header {
   text-align: center;
   margin: 10px;
@@ -95,6 +95,7 @@ header {
 }
 
 /***********Main Styles**********/
+
 .about-card {
   margin: 0 auto;
   text-align: center;
@@ -127,6 +128,27 @@ header {
   width: 90%;
   padding: 10px;
 }
+button {
+  padding: 10px 20px;
+  color: #363535;
+  background-color: #f0d4d4;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+  border: none;
+  font-family: "Lemonada", cursive;
+}
+button:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0; }
+}
+
 #resume-btn {
   background-color: #f19595;
   margin-bottom: 15px;
@@ -248,22 +270,6 @@ label {
 textarea {
   height: 150px;
   resize: none;
-}
-button {
-  padding: 10px 20px;
-  color: #363535;
-  background-color: #f0d4d4;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 15px;
-  outline: none;
-  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
-  border: none;
-  font-family: "Lemonada", cursive;
-}
-#message-btn:hover {
-  transform: scale(1.2);
-  font-size: 16px;
 }
 
 /*************Tablet styles*************/
@@ -427,6 +433,8 @@ button {
   .contact-column-1,
   .contact-column-2 {
     width: 50%;
-    margin: 20px;
+    margin: 0 20px;
   }
 }
+
+
