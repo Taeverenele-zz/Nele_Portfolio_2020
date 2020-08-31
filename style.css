@@ -227,6 +227,9 @@ header.skills-header {
   width: 100%;
   backface-visibility: hidden;
 }
+.projects a img {
+  max-width: 390px;
+}
 
 /**************Blog Page*************/
 
