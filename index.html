@@ -8,7 +8,9 @@
     <title>Portfolio Page</title>
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav class="topnav" id="myTopnav">
+      <!-- Navigation links -->
       <ul>
         <li><a href="./index.html" class="active">Home</a></li>
         <li><a href="./skills.html">Skills</a></li>
@@ -16,6 +18,7 @@
         <li><a href="./blog.html">Blog</a></li>
         <li><a href="./contact.html">Contact Me</a></li>
       </ul>
+      <!-- Social media links in navigation -->
       <div id="social-icons">
         <a
           target="_blank"
@@ -58,7 +61,9 @@
         /></a>
       </div>
     </nav>
+    <!-- Flex container to move header and main according to screen size -->
     <div class="flex-container align-top">
+      <!-- Header for avatar image -->
       <header>
         <img
           class="avatar"
@@ -66,6 +71,7 @@
           alt="my avatar"
         />
       </header>
+      <!-- Main area for about card -->
       <main class="about-card">
         <div class="flip-card-back">
           <h1>Hi!</h1>
@@ -76,11 +82,13 @@
             To find out more about me, check out my resume below or if anyone
             would like to follow my journey, find me on social media.
           </p>
+          <!-- Resume button -->
           <button class="pulse" id="resume-btn" type="submit">
             <a target="_blank" rel="noopener" href="./images/resume.pdf"
               >My Resume</a
             >
           </button>
+          <!-- Social media icons -->
           <div>
             <a
               target="_blank"
@@ -131,16 +139,17 @@
         </div>
       </main>
     </div>
+    <!-- Footer -->
     <footer>
       <p>&copy; Copyright 2020</p>
     </footer>
+    <!-- Hamburger menu displayed on mobile view -->
     <img
       onclick="showNavBar()"
       id="hamburger-menu"
       src="./images/open-menu.svg"
       alt="hamburger menu icon"
     />
-    <!-- <img id="butterfly" src="./images/butterfly-big.svg" alt="butterfly" /> -->
     <script src="script.js"></script>
     <link async deferred rel="stylesheet" href="style.css" />
     <link

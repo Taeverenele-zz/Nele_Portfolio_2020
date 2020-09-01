@@ -14,11 +14,21 @@ Link to Ed Worspace
 
 ## Purpose for this website:
 
-This portfolio was devloped as a way to showcase my skills as a developer and to show work I have done. It contains a contact me form, information about me, my blog page and links to my social media.
+This portfolio was devloped as a way to showcase my talents, coding experience and skills as a developer. 
+It is targeted towards potential future employers looking to expand their dev team.
+
 
 ## Functionality / features
 
-The design is responsive and accesablble. It features a fixed navigation bar, css animations and a contact form.
+The design is responsive and accessable. It features a fixed navigation bar, css animations and a contact form.
+
+My webpage consists of:
+
+- index page, an intoduction to who I am and link to my resume
+- skills page, demonstrates my core skills and technical abilities
+- portfolio page, showcases my coding experience
+- blog page, displays my writing and blogging skill
+- contact me page, contains a form for viewers to get in touch
 
 ## Sitemap
 

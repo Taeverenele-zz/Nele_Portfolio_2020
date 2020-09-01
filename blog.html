@@ -8,7 +8,9 @@
     <title>Portfolio Page</title>
   </head>
   <body>
+    <!-- Navigation bar -->
     <nav class="topnav" id="myTopnav">
+      <!-- Navigation links -->
       <ul>
         <li><a href="./index.html" class="active">Home</a></li>
         <li><a href="./skills.html">Skills</a></li>
@@ -16,8 +18,12 @@
         <li><a href="./blog.html">Blog</a></li>
         <li><a href="./contact.html">Contact Me</a></li>
       </ul>
+      <!-- Social media links in navigation -->
       <div id="social-icons">
-        <a target="_blank" rel="noopener" href="https://twitter.com/NeleTheCoder"
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://twitter.com/NeleTheCoder"
           ><img
             class="social-icon"
             src="./images/twitter.svg"
@@ -35,13 +41,19 @@
         <a target="_blank" rel="noopener" href="https://github.com/Taeverenele"
           ><img class="social-icon" src="./images/github.svg" alt="github icon"
         /></a>
-        <a target="_blank" rel="noopener" href="https://www.facebook.com/nele.taevere"
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://www.facebook.com/nele.taevere"
           ><img
             class="social-icon"
             src="./images/facebook.svg"
             alt="facebook icon"
         /></a>
-        <a target="_blank" rel="noopener" href="https://www.instagram.com/nelly_t_au/"
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://www.instagram.com/nelly_t_au/"
           ><img
             class="social-icon"
             src="./images/instagram.svg"
@@ -49,10 +61,12 @@
         /></a>
       </div>
     </nav>
+    <!-- Header for page title -->
     <header>
       <h1 class="title">Blogs</h1>
       <p>Click on the link below the image to read the blog</p>
     </header>
+    <!-- Main area of page diplaying blog cards as flex items-->
     <main class="flex-container">
       <section class="card">
         <h3>Rewiring mum brain at coding boot camp: 1st week done!</h3>
@@ -111,17 +125,17 @@
         >
       </section>
     </main>
+    <!-- Footer -->
     <footer>
       <p>&copy; Copyright 2020</p>
     </footer>
-
+    <!-- Hamburger menu displayed on mobile view -->
     <img
       onclick="showNavBar()"
       id="hamburger-menu"
       src="./images/open-menu.svg"
       alt="hamburger menu icon"
     />
-    <!-- <img id="butterfly" src="./images/butterfly-big.svg" alt="butterfly" /> -->
     <script src="script.js"></script>
     <link async deferred rel="stylesheet" href="style.css" />
     <link
