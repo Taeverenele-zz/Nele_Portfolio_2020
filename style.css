@@ -155,7 +155,7 @@ button,
 button:hover,
 #resume-btn:hover {
   animation: pulse 1s;
-  box-shadow: 0 0 0 2em rgba(#fff, 0);
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
 #resume-btn {
   background-color: #f19595;
