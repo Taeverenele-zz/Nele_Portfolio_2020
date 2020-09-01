@@ -138,8 +138,12 @@ header {
 
 /***********Button Styles**********/
 button {
-  padding: 10px 20px;
   background-color: #f0d4d4;
+  padding: 10px 20px;
+}
+
+button,
+#resume-btn {
   border-radius: 10px;
   cursor: pointer;
   font-size: 15px;
@@ -148,13 +152,14 @@ button {
   border: none;
   font-family: "Lemonada", cursive;
 }
-button:hover {
+button:hover,
+#resume-btn:hover {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(#fff, 0);
 }
 #resume-btn {
   background-color: #f19595;
-  margin-bottom: 15px;
+  padding: 5px 10px;
 }
 @keyframes pulse {
   0% {
