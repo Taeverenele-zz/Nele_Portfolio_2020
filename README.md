@@ -20,7 +20,7 @@ It is targeted towards potential future employers looking to expand their dev te
 
 ## Functionality / features
 
-The design is responsive and accessable. It features a fixed navigation bar, css animations and a contact form.
+The design is responsive and accessible.
 
 My webpage consists of:
 
@@ -45,6 +45,8 @@ My webpage consists of:
 ![contact.html](./images/contact-wireframe.png)
 
 ### Screenshots of website
+
+
 
 ## Target Audience
 
