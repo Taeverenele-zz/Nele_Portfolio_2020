@@ -32,21 +32,36 @@ My webpage consists of:
 
 ## Sitemap
 
-![sitemap](./images/sitemap.png)
+![sitemap](./docs/sitemap.png)
 
 ## Screenshots
 
 ### Wireframes
 
-![index.html](./images/index-wireframe.png)
-![skills.html](./images/skills-wireframe.png)
-![portfolio.html](./images/portfolio-wireframe.png)
-![blog.html](./images/blog-wireframe.png)
-![contact.html](./images/contact-wireframe.png)
+![index.html](./docs/index-wireframe.png)
+![skills.html](./docs/skills-wireframe.png)
+![portfolio.html](./docs/portfolio-wireframe.png)
+![blog.html](./docs/blog-wireframe.png)
+![contact.html](./docs/contact-wireframe.png)
 
 ### Screenshots of website
 
-
+![desktop index.html](./docs/desktop_index.png)
+![desktop skills.html](./docs/desktop_skills.png)
+![desktop portfolio.html](./docs/desktop_portfolio.png)
+![desktop blogs.html](./docs/desktop_blogs.png)
+![desktop contact.html](./docs/desktop_contact.png)
+![tablet index.html](./docs/tablet_index.png)
+![tablet skills.html](./docs/tablet_skills.png)
+![tablet portfolio.html](./docs/tablet_portfolio.png)
+![tablet blogs.html](./docs/tablet_blogs.png)
+![tablet contact.html](./docs/tablet_contact.png)
+![mobile index.html](./docs/mobile_index.png)
+![mobile skills.html](./docs/mobile_skills.png)
+![mobile portfolio.html](./docs/mobile_portfolio.png)
+![mobile blogs.html](./docs/mobile_blogs.png)
+![mobile contact.html](./docs/mobile_contact.png)
+![mobile navigation.html](./docs/mobile_navigation.png)
 
 ## Target Audience
 
