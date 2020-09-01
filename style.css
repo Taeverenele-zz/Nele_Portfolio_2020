@@ -141,9 +141,11 @@ button {
   background-color: #f0d4d4;
   padding: 10px 20px;
 }
-
-button,
 #resume-btn {
+  padding-bottom: 20px;
+}
+button,
+#resume-btn a {
   border-radius: 10px;
   cursor: pointer;
   font-size: 15px;
@@ -153,11 +155,11 @@ button,
   font-family: "Lemonada", cursive;
 }
 button:hover,
-#resume-btn:hover {
+#resume-btn a:hover {
   animation: pulse 1s;
   box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
-#resume-btn {
+#resume-btn a {
   background-color: #f19595;
   padding: 5px 10px;
 }
@@ -248,12 +250,11 @@ header.skills-header {
 }
 .blog a {
   padding: 5px;
-  transition: 1.5s;
+  border-radius: 10px;
 }
 .blog a:hover {
-  color: #f0d4d4;
-  background-color: #575555;
-  border-radius: 10px;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
 
 /**************Contact Page*************/
@@ -332,6 +333,7 @@ textarea {
   }
   .avatar {
     width: 300px;
+    margin-top: 0;
   }
   .title {
     font-family: "Bangers", cursive;
@@ -375,7 +377,7 @@ textarea {
   .topnav {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 99%;
     margin: 5px;
   }
   .topnav ul {
@@ -397,6 +399,7 @@ textarea {
   }
   .avatar {
     width: 300px;
+    margin-top: 0;
   }
   .align-top {
     align-items: flex-start;
