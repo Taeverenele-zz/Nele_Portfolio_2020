@@ -40,7 +40,7 @@ main {
   left: 10px;
   cursor: pointer;
 }
-#social-icons {
+.social-icons {
   padding-top: 10px;
 }
 .social-icon {
@@ -50,7 +50,7 @@ main {
   border-radius: 50%;
 }
 .about-card a img:hover,
-#social-icons a:hover {
+.social-icons a:hover {
   cursor: pointer;
   transform: scale(1.5);
 }
@@ -232,18 +232,20 @@ header.skills-header {
 }
 .projects a img {
   max-width: 390px;
-  transition: 1.5s;
 }
-
+.projects a img,
+.blog img {
+  transition: 1.5s;
+  border-radius: 25px;
+}
+.projects a img:hover,
+.blog img:hover {
+  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
+}
 /**************Blog Page*************/
 .blog img {
   width: 90%;
   max-height: 230px;
-  border-radius: 25px;
-  transition: 1.5s;
-}
-.blog img:hover {
-  box-shadow: 10px 10px 20px 8px rgba(0, 0, 0, 0.75);
 }
 .blog p {
   font-size: 13px;
@@ -305,7 +307,7 @@ textarea {
   #hamburger-menu {
     display: none;
   }
-  #social-icons {
+  .social-icons {
     display: flex;
     justify-content: center;
   }
@@ -363,7 +365,7 @@ textarea {
   #hamburger-menu {
     display: none;
   }
-  #social-icons {
+  .topnav .social-icons {
     height: 50px;
     width: 25%;
     display: flex;
