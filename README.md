@@ -1,7 +1,7 @@
 
 **GitHub repo link:** [click here for Github repo](https://taeverenele.github.io/Nele_Portfolio_2020/)
 
-**Link to Ed Worspace:** 
+**Link to Ed Worspace:** [click here for Ed Workspace](https://edstem.org/courses/4464/workspaces/pVW3gMFLoCl3spPYmwDTjVhVjfx9Uh4n)
 
 
 # Purpose for this website:
