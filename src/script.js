@@ -12,3 +12,4 @@ function showNavBar() {
     paragraph.className = "paragraph";
   }
 }
+
