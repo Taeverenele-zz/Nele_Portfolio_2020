@@ -1,3 +1,75 @@
+commit 5f6260a3f47f7ba14ad0f4271d6d667ea9c36254
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Thu Sep 3 11:40:15 2020 +1000
+
+    move images to src folder
+
+commit e78b78934a127c74d64e90779cc2b92ba91e190e
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Thu Sep 3 11:31:24 2020 +1000
+
+    move files into src folder
+
+commit b23d4d0f99a3c23541535e100b6c03205248b570
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 15:14:52 2020 +1000
+
+    adjust title and paragraph's background color when hamburger button is clicked
+
+commit b3cf19eb397ea6bd53090650cd75940c2862db67
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 13:33:39 2020 +1000
+
+    change background-image
+
+commit 75e3473df819e9abb2f615385f58c7866ae3e512
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 09:58:15 2020 +1000
+
+    add to README.md
+
+commit 8d6c2daf944bf096a56e3c5132a3c8bb5aeb6cfc
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 09:24:54 2020 +1000
+
+    add subresource intergrity on script.js
+
+commit 3172d853979586419ff9d8e8e0d75a2775b0e2a6
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 09:21:22 2020 +1000
+
+    add subresource intergrity on style.css
+
+commit 8aee437a3b95dc12c0f2d4bca96a91393ff64655
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Wed Sep 2 08:29:32 2020 +1000
+
+    change social-icons from id to class for reuse in other parts
+
+commit 21119ce365f94db7cc68c67cf460402c896e2a7c
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Tue Sep 1 20:15:29 2020 +1000
+
+    fix resume button margin
+
+commit 7cc0e4601407401855c9051330d2f21b2e7e98da
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Tue Sep 1 16:07:08 2020 +1000
+
+    change button hover style
+
+commit 12ff2270c1079e64a7c4d945ee579d73431b21cc
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Tue Sep 1 15:55:11 2020 +1000
+
+    remove button tag around resume a tag
+
+commit d9c2036c228552ebadea6f6a5fda0bf5b49291c7
+Author: Nele Taevere <ntaevere@gmail.com>
+Date:   Tue Sep 1 13:54:46 2020 +1000
+
+    generate gitlog.txt file
+
 commit 07bd2e527bb5bd0b8d75e8fdbd7c942800e5b2bc
 Author: Nele Taevere <ntaevere@gmail.com>
 Date:   Tue Sep 1 13:52:44 2020 +1000

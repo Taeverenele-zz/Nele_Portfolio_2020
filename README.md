@@ -1,27 +1,26 @@
 
-- GitHub repo link: [click here for Github repo](https://taeverenele.github.io/Nele_Portfolio_2020/)
+**GitHub repo link:** [click here for Github repo](https://taeverenele.github.io/Nele_Portfolio_2020/)
 
-- Link to Ed Worspace: 
+**Link to Ed Worspace:** 
+
 
 # Purpose for this website:
 
 This portfolio was devloped as a way to showcase my talents, coding experience and skills as a developer. 
-Website is targeted towards potential future employers looking to expand their dev team.
-
 
 # Functionality / features
 
-The design is responsive and accessible layed out on multiple pages:
+The design is responsive and accessible, layed out on multiple pages:
 
 - index page, an intoduction to who I am and link to my resume
 - skills page, demonstrates my core skills and technical abilities
 - portfolio page, showcases my coding experience
 - blog page, displays my writing and blogging skill
-- contact me page, contains a form for viewers to get in touch
+- contact me page, contains a form for visitors to get in touch
 
 ## Navigation
 
-On mobile view the navigation is hidden until hamburger menu button is pressed. Once pressed, everything on the page is moved down to allow room for the navigation buttons and social media icons.
+On mobile view the navigation is hidden until hamburger menu button is pressed. Once pressed, everything on the page is moved down to allow room for the navigation buttons and social media icons. Currently have had to add background color to the title and paragraph underneath to assure they don't get lost in the background color on smaller mobile views. In the future I plan to change navigation on mobile view to be an overlay so that the content of the website doesn't get moved down.
 
 Tablet view has visible navigation layed out in a row with social links centered underneath.
 
@@ -37,7 +36,7 @@ Main component on all pages has the main content of the page, such as a short de
 
 ## Footer
 
-At the bottom of every page is fixed to the screen and displays the copyright message.
+At the bottom of every page is fixed to the screen and displays the copyright symbol with my name.
 
 # Sitemap
 
@@ -74,11 +73,21 @@ At the bottom of every page is fixed to the screen and displays the copyright me
 
 # Target Audience
 
-My portfolio was created to show any future employees or for a company who needs a developer
+My portfolio was created to show any future employees or a company who might be looking for a developer
 
 # Tech Stack
 
 The website was built using HTML, CSS, a little bit of JavaScript to make the hamburger menu functional and Google Fonts to add a fun font style.
 
 For the purpose of this assignment, the website is deployed on Github Pages.
+
+# Design
+
+I got inspiration for my webpage from a previous Coder Academy student Arisa Okuyama. Her eebsite has a great colour scheme and I love the simplicity of the layout.
+
+![Arisa Okuyama webpage](./docs/arisa_okuyama.png)
+
+- I tried to keep my colours simple and not too bright and I used three colours all thoughout the webpage to give every page the same look. 
+- Layout is clean and spread out to make it userfriendly and not cluttered.
+- Used SVGs for social media icons to have better scalability.
 
